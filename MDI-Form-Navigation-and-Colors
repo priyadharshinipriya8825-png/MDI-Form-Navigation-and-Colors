@@ -1,0 +1,31 @@
+Private Sub bluemenu_Click()
+    Form1.BackColor = vbBlue
+End Sub
+
+Private Sub form1menu_Click()
+    Form1.Show
+End Sub
+
+Private Sub form2menu_Click()
+    Form2.Show
+End Sub
+
+Private Sub form3menu_Click()
+    Form3.Show
+End Sub
+
+Private Sub greenmenu_Click()
+    Form3.BackColor = vbGreen
+End Sub
+
+Private Sub horizontalmenu_Click()
+    Me.Arrange vbTileHorizontal
+End Sub
+
+Private Sub redmenu_Click()
+    Form2.BackColor = vbRed
+End Sub
+
+Private Sub verticalmenu_Click()
+    Me.Arrange vbTileVertical
+End Sub
